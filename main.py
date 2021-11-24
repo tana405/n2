@@ -1,5 +1,4 @@
 import sys
-
 from random import randint
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPlainTextEdit, QPushButton
