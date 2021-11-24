@@ -10,7 +10,7 @@ class FMain(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        uic.loadUi('Ui.ui', self)  # Загружаем дизайн
+        uic.loadUi('Ui.ui', self)
         self.btn.clicked.connect(self.on_click)
 
     def on_click(self):
