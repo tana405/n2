@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QPlainTextEdit, QPushButt
 
 
 class FMain(QMainWindow):
+
     def __init__(self):
         super().__init__()
         uic.loadUi('Ui.ui', self)
